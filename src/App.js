@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Link } from 'react-router-dom';
 import { getAllPokemon } from './services/pokemon-api';
-
 import './App.css';
 
 class App extends Component {
@@ -31,12 +30,10 @@ class App extends Component {
             )}
           </section>
         }>
-
         </Route>
       </div>
     )
   }
-
 }
 
 export default App;
