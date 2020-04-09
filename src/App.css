@@ -3,7 +3,7 @@
   height: 100vh;
 }
 .App-header {
-  background-color: tomato;
+  background-color: red;
   min-height: 7vh;
   display: flex;
   align-items: center;
@@ -21,7 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: cornflowerblue;
+  background-color: blue;
   padding: 20px;
   border-radius: 5px;
   min-height: 60px;
