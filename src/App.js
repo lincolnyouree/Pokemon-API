@@ -8,6 +8,11 @@ class App extends Component {
     pokemon: []
   };
 
+  async componentDidMount() {
+    const pokemon = await getAllPokemon();
+    console.log(pokemon);
+  }
+
   render() {
     return (
       <div className="App">
