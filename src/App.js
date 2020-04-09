@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 import { Route, Link } from 'react-router-dom';
 import { getAllPokemon } from './services/pokemon-api';
+import PokemonPage from './pages/PokemonPage/PokemonPage';
 import './App.css';
 
 class App extends Component {
   state = {
     pokemon: []
   };
+
+  getPokemon = (idx) => {
+    return this.state.pokemon[idx];
+  }
 
   async componentDidMount() {
     const pokemon = await getAllPokemon();
@@ -29,6 +34,13 @@ class App extends Component {
               </Link>
             )}
           </section>
+        }>
+        </Route>
+        <Route path='/pokemon/:idx' render={(props) =>
+          <PokemonPage 
+            {...props}
+            getPokemon={this.getPokemon}
+          />
         }>
         </Route>
       </div>
