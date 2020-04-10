@@ -7,3 +7,4 @@
 ## Credits:
 
 * PokéAPI - pokeapi.co
+* Logo - 1000logos.net 

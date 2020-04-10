@@ -3,8 +3,10 @@
   height: 100vh;
 }
 .App-header {
+
   background-color: red;
-  min-height: 7vh;
+  /* background: url(https://i.imgur.com/Br4j7cd.png); */
+  min-height: 7vh; /* 27vh for image*/
   display: flex;
   align-items: center;
   justify-content: center;
