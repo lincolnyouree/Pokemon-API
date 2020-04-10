@@ -2,9 +2,9 @@
 
 # Pokémon-API
 
-* A simple Pokémon index using React and API.
+* A fun, simple Pokémon index using React and a RESTful API.
 
 ## Credits:
 
-* PokéAPI - pokeapi.co
+* Pokémon API - pokeapi.co
 * Logo - 1000logos.net 

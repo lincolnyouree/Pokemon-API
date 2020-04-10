@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './PokemonPage.css';
 import { getPokemonDetails } from '../../services/pokemon-api';
+
 class PokemonPage extends Component {
     state = {
         pokemon: []
@@ -11,13 +12,14 @@ class PokemonPage extends Component {
         console.log(pokemon);
         this.setState({ pokemon: pokemon })
     }
+    
     render() {
         return (
             <div className='PokemonPage'>
                 {this.state.pokemon.name ?
                 <>
                     <div className='PokemonPage-image'>
-                        <span><img height="250" src={this.state.pokemon.sprites.front_default} alt=""/></span>
+                        <span><img height="350" src={this.state.pokemon.sprites.front_default} alt=""/></span>
                     </div>
                     <div className='PokemonPage-pokemon'>
                         <span>Name:</span>
@@ -60,12 +62,11 @@ class PokemonPage extends Component {
                         <span>{this.state.pokemon.stats[4].base_stat}</span>
                         <span>HP:</span>
                         <span>{this.state.pokemon.stats[5].base_stat}</span>
-                        <Link to='/'>Back to Index</Link>
                     </div>
                 </>
                 :
                 <h3>Loading...</h3>
-                }
+            }
             </div>
         )
     }

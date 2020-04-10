@@ -2,32 +2,44 @@
   text-align: center;
   height: 100vh;
 }
+
 .App-header {
 
-  background-color: red;
-  /* background: url(https://i.imgur.com/Br4j7cd.png); */
-  min-height: 7vh; /* 27vh for image*/
+  background: url(https://i.imgur.com/Br4j7cd.png);
+  min-height: 27vh; 
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 .App section {
   margin: 50px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
 }
+
 .App section a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blue;
+  background-color: rgb(59, 83, 173);
   padding: 20px;
   border-radius: 5px;
   min-height: 60px;
   color: white;
   text-decoration: none;
   font-size: 20px;
+}
+
+.Back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  font-size: calc(10px + 2vmin);
+  color: rgb(215, 0, 0);
 }

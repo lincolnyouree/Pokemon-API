@@ -22,7 +22,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">Pokémon Index</header>
+        <header className="App-header"></header>
+        <Link to='/' className="Back">Index</Link>
         <Route exact path="/" render={() =>
           <section>
             {this.state.pokemon.map((pokemon, idx) => 

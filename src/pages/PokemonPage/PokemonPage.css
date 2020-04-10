@@ -11,9 +11,13 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 20px;
-    background-color: blue;
+    background-color: rgb(59, 83, 173);
     color: white;
   }
   .PokemonPage a {
     color: white;
+  }
+
+  .Back {
+    justify-content: center;
   }
