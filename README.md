@@ -1,6 +1,6 @@
 ![Wireframe](https://i.imgur.com/Br4j7cd.png)
 
-# Pokémon-API
+# Pokémon Index
 
 * A fun, simple Pokémon index using React, Heroku, and RESTful API.
 
