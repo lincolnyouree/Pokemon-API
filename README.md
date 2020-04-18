@@ -2,15 +2,12 @@
 
 # Pokémon Index
 
-* A fun, simple Pokémon index using React, Heroku, and RESTful API.
-
-* Click [here](https://pokemon-index-app.herokuapp.com/) to view the index!
+* A fun, simple Pokémon index using React and RESTful API.
 
 ## Technologies Used: 
 
 * React.js
 * API
-* Heroku
 
 ## Credits:
 
