@@ -10,8 +10,14 @@
 
 * React.js
 * API
+* GitHub Pages
 
 ## Credits:
 
 * Pokémon API - pokeapi.co
 * Logo - 1000logos.net 
+
+## Screenshots: 
+
+![Wireframe](https://i.imgur.com/ggrlsxp.png)
+![Wireframe](https://i.imgur.com/JNArBa0.png)
